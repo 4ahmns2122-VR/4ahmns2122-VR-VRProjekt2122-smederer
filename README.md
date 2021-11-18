@@ -1,8 +1,8 @@
-# XRInteractionToolkitTemplate
+# # Weihnachts Vr-Game: SantaBringsPresents
 
 ### Project description: 
-This project serves as sample project for spatial audio. 
-Explore sound in its basics in virtual reality (VR).
+Man ist der Weihnachtsmann, der in einer kleinen Stadt Aufgaben erledigen muss. Wenn man alle Aufgaben erledigt hat, kann man mit seiner Rentierkutsche davonfliegen. Das Ganze spielt in der Nacht.
+Häuser sind wie ein Irrgarten angeordnet.
 
 ### Development platform: 
 OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
@@ -18,9 +18,9 @@ Oculus Rift/S; Quest/2
 ### Visuals: 
 Screenshots (concept and experience), Video
 
-### Third party material: 
+### Third party material: For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package): https://www.youtube.com/watch?v=d4bTpkvBwrs
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 
 ### Limitations/Problems: 
 
-Copyright by smeerws :)
+Copyright by smederer :)
