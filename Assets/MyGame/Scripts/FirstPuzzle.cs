@@ -13,6 +13,13 @@ public class FirstPuzzle : MonoBehaviour
             giftDrop = true;
         }
     }
-    
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.name == "DoorPuzzle1")
+        {
+            Debug.Log("present taken");
+            giftDrop = false;
+        }
+    }
 
 }
