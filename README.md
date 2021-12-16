@@ -21,6 +21,10 @@ Screenshots (concept and experience), Video
 ### Third party material: For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package): https://www.youtube.com/watch?v=d4bTpkvBwrs
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 
+### Project state:
+in development - code for first and second puzzle works
+sound for fisrt puzzle works
+
 ### Limitations/Problems: 
 
 Copyright by smederer :)

@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public FirstPuzzle ersteAufgabe;
     private bool einsteigen;
     public AudioSource hoHo;
+    public SecondPuzzle zweiteAufgabe;
 
 
     private void Start()
