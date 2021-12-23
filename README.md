@@ -23,7 +23,15 @@ Screenshots (concept and experience), Video
 
 ### Project state:
 in development - code for first and second puzzle works
-sound for fisrt puzzle works
+sound for fisrt puzzle works, GameManager works - only if bouth puzzles are solved you can exit.
+Puzzles are positioned in the maze.
+Second Milestone reached.
+
+### Milestones:
+25 Nov: Movement funktioniert, Basic Features funktionieren.
+23 Dec: 1.aufgabe +Audio, teils 2. Aufgabe + Audio
+20 Jän: 3. Aufgabe + Audio, teils 2. Aufgabe + Audio für gesamte scene
+
 
 ### Limitations/Problems: 
 

@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour
     public CockieDetector zweiteAufgabe;
     public GameObject wandSchluss;
 
+    private bool statusGiftDrop;
+    private bool statusCockieTaken;
+    
 
     private void Start()
     {
@@ -21,15 +24,18 @@ public class GameManager : MonoBehaviour
         if (ersteAufgabe.giftDrop)
         {
             //Debug.Log("first puzzle Solved");
-            //ersteAufgabe.giftDrop = false;
             hoHo.Play();
+            ersteAufgabe.giftDrop = false;
+            statusGiftDrop = true;
         }
+        
         if (zweiteAufgabe.cockieTaken)
         {
             //Debug.Log("second puzzle Solved");
             //zweiteAufgabe.cockieTaken = false;
+            statusCockieTaken = true;
         }
-        if (ersteAufgabe.giftDrop && zweiteAufgabe.cockieTaken)
+        if (statusGiftDrop && statusCockieTaken)
         {
             wandSchluss.SetActive(false);
 
