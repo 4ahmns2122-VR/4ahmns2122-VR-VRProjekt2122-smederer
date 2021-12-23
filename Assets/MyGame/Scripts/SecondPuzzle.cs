@@ -5,7 +5,6 @@ using UnityEngine;
 public class SecondPuzzle : MonoBehaviour
 {
     //public bool lichtAn;
-    public bool secondPuzzleSolved;
     //public BoxCollider pass;
     float startTime = 5f;
     public float timer;

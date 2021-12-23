@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
     public FirstPuzzle ersteAufgabe;
     private bool einsteigen;
     public AudioSource hoHo;
-    public SecondPuzzle zweiteAufgabe;
+  
+    public CockieDetector zweiteAufgabe;
+    public GameObject wandSchluss;
 
 
     private void Start()
@@ -18,10 +20,23 @@ public class GameManager : MonoBehaviour
     {
         if (ersteAufgabe.giftDrop)
         {
-            Debug.Log("first puzzle Solved");
-            einsteigen = true;
-            ersteAufgabe.giftDrop = false;
+            //Debug.Log("first puzzle Solved");
+            //ersteAufgabe.giftDrop = false;
             hoHo.Play();
         }
+        if (zweiteAufgabe.cockieTaken)
+        {
+            //Debug.Log("second puzzle Solved");
+            //zweiteAufgabe.cockieTaken = false;
+        }
+        if (ersteAufgabe.giftDrop && zweiteAufgabe.cockieTaken)
+        {
+            wandSchluss.SetActive(false);
+
+        }
+        else {
+            wandSchluss.SetActive(true);
+        }
     }
+        
 }

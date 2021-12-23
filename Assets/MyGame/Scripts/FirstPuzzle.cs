@@ -5,21 +5,22 @@ using UnityEngine;
 public class FirstPuzzle : MonoBehaviour
 {
     public bool giftDrop = false;
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if(collision.gameObject.name == "DoorPuzzle1")
+        if(other.gameObject.name == "DoorPuzzle1")
         {
             Debug.Log("present dropped");
             giftDrop = true;
         }
     }
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
-        if (collision.gameObject.name == "DoorPuzzle1")
+        if (other.gameObject.name == "DoorPuzzle1")
         {
             Debug.Log("present taken");
             giftDrop = false;
         }
     }
+   
 
 }
