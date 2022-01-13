@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
         if (cockieSound.cockieAudio == true)
         {
             mjam.Play();
+            cockieSound.cockieAudio = false;
             Debug.Log("hi");
         }
         
