@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
   
     public CockieDetector zweiteAufgabe;
     public GameObject wandSchluss;
+    public CockieSound cockieSound;
+    public AudioSource mjam;
 
     private bool statusGiftDrop;
     private bool statusCockieTaken;
@@ -28,6 +30,11 @@ public class GameManager : MonoBehaviour
             ersteAufgabe.giftDrop = false;
             statusGiftDrop = true;
         }
+        if (cockieSound.cockieAudio == true)
+        {
+            mjam.Play();
+            Debug.Log("hi");
+        }
         
         if (zweiteAufgabe.cockieTaken)
         {
@@ -35,6 +42,7 @@ public class GameManager : MonoBehaviour
             //zweiteAufgabe.cockieTaken = false;
             statusCockieTaken = true;
         }
+        
         if (statusGiftDrop && statusCockieTaken)
         {
             wandSchluss.SetActive(false);
