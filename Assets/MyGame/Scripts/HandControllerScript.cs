@@ -21,21 +21,25 @@ public class HandControllerScript : MonoBehaviour
     {
         gripInputAction.action.performed += GripPressed;
         triggerInputAction.action.performed += TriggerPressed;
+        
     }
 
     private void TriggerPressed(InputAction.CallbackContext obj)
     {
         handAnimator.SetFloat("Trigger", obj.ReadValue<float>());
+        
     }
 
     private void GripPressed(InputAction.CallbackContext obj)
     {
         handAnimator.SetFloat("Grip", obj.ReadValue<float>());
+        
     }
 
     private void OnDisable()
     {
         gripInputAction.action.performed -= GripPressed;
         triggerInputAction.action.performed -= TriggerPressed;
+        Debug.Log("lol");
     }
 }

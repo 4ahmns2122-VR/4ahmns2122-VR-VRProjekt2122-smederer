@@ -2,7 +2,7 @@
 
 ### Project description: 
 Man ist der Weihnachtsmann, der in einer kleinen Stadt Aufgaben erledigen muss. Wenn man alle Aufgaben erledigt hat, kann man mit seiner Rentierkutsche davonfliegen. Das Ganze spielt in der Nacht.
-Häuser sind wie ein Irrgarten angeordnet.
+die Wände sind wie ein Irrgarten angeordnet.
 
 ### Development platform: 
 OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
@@ -26,11 +26,8 @@ Screenshots (concept and experience), Video
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 
 ### Project state:
-in development - code for first and second puzzle works
-sound for fisrt puzzle works, GameManager works - only if bouth puzzles are solved you can exit.
-Puzzles are positioned in the maze.
-Second Milestone reached.
-
+MVP fullfilled:first an second puzzle works, you also get feedback in form of audio, there are Atmospheric sounds, foodsteps when teleporting however i was not able to implement. However there are 
+additional textures, improved audios and models added now.
 ### Milestones:
 25 Nov: Movement funktioniert, Basic Features funktionieren.
 23 Dec: 1.aufgabe +Audio, teils 2. Aufgabe + Audio
