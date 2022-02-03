@@ -8,17 +8,17 @@ die Wände sind wie ein Irrgarten angeordnet.
 OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit, Oculus Link
 
 ## Software/Hardware Requirements: 
-Unity hardware requirements *Insert Doc link*
-Oculus hardware requirements https://support.oculus.com/248749509016567/
-You need a VR headset in this case an Oculus Rift/Quest/Quest2
-Unity Packages:
-XR Interaction Toolkit Version 1.0.0-pre.8
-Oculus Integration Version 1.10.0
-XR Management Version 4.2.0
-Unity UI 1.0.0
-Visual Studio Code Editor 1.2.4
-Visual Studio Editor 2.0.11
-Oculus XR Plugin 1.10.0
+- Unity hardware requirements *Insert Doc link*
+- Oculus hardware requirements https://support.oculus.com/248749509016567/
+- You need a VR headset in this case an Oculus Rift/Quest/Quest2
+- Unity Packages:
+- XR Interaction Toolkit Version 1.0.0-pre.8
+- Oculus Integration Version 1.10.0
+- XR Management Version 4.2.0
+- Unity UI 1.0.0
+- Visual Studio Code Editor 1.2.4
+- Visual Studio Editor 2.0.11
+- Oculus XR Plugin 1.10.0
 
 ### Target platform: 
 Oculus Rift/S; Quest/2
